@@ -56,9 +56,41 @@ body {
 }
 
 .search {
-  flex: 4;
+  flex: 2;
   height: 40px;
-  width: 400px;
+  width: 350px !important;
   outline: none;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 20px;
+  display: flex;
+  margin-right: 100px;
+}
+
+.search_input {
+  padding: 5px;
+  width: 350px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #fff;
+  background: #ffffff33;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  font-size: 40px;
+  flex: 2;
+  background: #d0d0d065;;
+  padding: 3px;
   border-radius: 5px;
 }
+
+/* .search_icon {
+  height: 20px;
+  background: red;
+  text-align: center;
+  padding: 10px;
+} */

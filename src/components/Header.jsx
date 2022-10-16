@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-
+import { AiOutlineSearch } from 'react-icons/ai';
 function Header() {
   return (
       <div className='header'>
@@ -14,10 +14,14 @@ function Header() {
           </div>
           <div className="search">
               <div className="search_icon">
-                  
+                  <AiOutlineSearch className='icon'/>
               </div>
-              <input type="text" className="search input" placeholder="Search..." />
+              <input type="text" className="search_input" placeholder="Search..." />
           </div>
+                  
+      
+                  
+              
     </div>
   )
 }

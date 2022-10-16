@@ -21,7 +21,7 @@ const FetchData = () => {
       <input
         className='search'
         placeholder='Search...'
-        onChange={ (e) => setQuery(e.target.value.toLowerCase()) } />
+        onChange={(e) => setQuery(e.target.value.toLowerCase())} />
       { <Table data={data} />}
     </div>
   )
